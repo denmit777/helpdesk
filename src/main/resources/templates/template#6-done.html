@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p>
+    Dear <span th:text="${username}"></span> <span th:text="${userSurname}"></span>,
+</p>
+<p>
+    Ticket <a th:text="${ticketId}" th:href="${baseUrl + 'tickets/' + ticketId}">
+    Ticket ID via link</a> was done by the Engineer.</br>
+    Please provide your feedback by clicking on the ticket ID.
+</p>
+</body>
+</html>

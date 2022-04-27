@@ -1,0 +1,218 @@
+.container {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__title-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.container__from-wrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container__inputs-wrapper {
+  display: flex;
+}
+
+.form__input-wrapper {
+  margin: 20px;
+}
+
+.container__button-wrapper {
+  display: flex;
+  margin: auto;
+  padding: 1% 1% 0 1%;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 5% 0 5%;
+}
+
+.table-container {
+  padding: 5% 5% 0 5%;
+}
+
+.ticket-data-container__title {
+  padding: 3% 5% 0 11%;
+}
+
+.ticket-data-container__info {
+  margin: 30px 0 0 6%;
+  width: 600px;
+}
+
+.ticket-line {
+  display: flex;
+}
+
+.ticket-table {
+  width: 600px;
+}
+
+.ticket-data-container__attachments-section {
+  margin: 30px auto 10px auto;
+  width: 90%;
+}
+
+.ticket-data-container__comments-section {
+  margin: 30px auto 10px auto;
+}
+
+.comments-section {
+  width: 90%;
+}
+
+.ticket-data-container__back-button {
+  margin: 30px 0 0 6%;
+}
+
+.ticket-data-container__enter-comment-section {
+  margin: 30px 0 50px 6%;
+}
+
+.comment-text-field {
+  width: 600px;
+}
+
+.enter-comment-section__add-comment-button {
+  margin-top: 20px;
+}
+
+.ticket-creation-form-container__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ticket-creation-form-container__navigation-container {
+  margin: 30px 30px;
+}
+
+.inputs-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.inputs-section-attachment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-creation-form-container__form {
+  margin-top: 30px;
+}
+
+.inputs-section__ticket-creation-input {
+  margin: 0 20px 0 20px;
+}
+
+.ticket-creation-input_width200 {
+  width: 200px;
+}
+
+.creation-text-field_width680 {
+  width: 680px;
+}
+
+.submit-button-section {
+  margin: auto;
+  display: flex;
+  width: 450px;
+  justify-content: space-around;
+}
+
+.ticket-data-container__button-section {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 50px 6%;
+  width: 600px;
+}
+
+.up-arrow {
+  width: 0;
+  height: 0;
+  border: solid 5px transparent;
+  background: transparent;
+  border-bottom: solid 7px black;
+  border-top-width: 0;
+  cursor: pointer;
+  margin: 5px auto;
+}
+
+.down-arrow {
+  width: 0;
+  height: 0;
+  border: solid 5px transparent;
+  background: transparent;
+  border-top: solid 7px black;
+  border-bottom-width: 0;
+  cursor: pointer;
+  margin-top: 5px;
+  margin: auto;
+}
+
+.field {
+  margin: auto;
+  float: left;
+  position: relative;
+  ;
+}
+
+.inputs-section-for-feedback {
+  display: flex;
+  justify-content: center;
+  margin: 330px 0;
+}
+
+.feedback-rate {
+  display: flex;
+  justify-content: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.feedback-rate button {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.allFeedbacks {
+  display: flex;
+}
+
+.allFeedbacks div {
+  display: flex;
+  margin-right: 105px;
+}
+
+.submit-button-from-feedbackpage {
+  color: white;
+  font-size: 24px bold;
+  background-color: blue;
+  padding: 25px;
+  margin: 25px;
+  max-width: 110px;
+  max-height: 25px;
+}
